@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- inclusão da funcionalidade por js por bart preDev -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Marco Bruno">
+    <meta name="description" content="estudo do display inline">
+    <title>display inline</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="comuns.css">    
+    <link rel="stylesheet" href="displayinline.css">
+</head>
+<!-- perdôe, os id's foram colocados para poder aplicar pelo javascript
+a proprieade nessa dada 12/07/2022 foi a forma que arrumei 
+pra fazer funcionar com os estudos de javascript vou aprender -->
+<body>
+    <ul class="example">
+        <li id="estudo_um" class="example-item example-item_first">Primeiro</li>
+        <li id="estudo_dois" class="example-item example-item_second">Segundo</li>
+        <li id="estudo_tres" class="example-item example-item_third">Terceiro</li>       
+    </ul>
+    <div class="btaplicar">
+        <button type="button" onclick="aplicarPropriedade()">Aplicar/Remover ( display:inline )</button>
+    </div>
+    <div id="estudo_div" class="description">
+         o display: inline -> deixa a box no tamanho do elemento (conteúdo)
+         e não permite especificar um tamanho ( width nem height ), o elemento 
+         ganha propriedades de palavra.
+         o pradrão dos elementos li é display:block, ficariam um abaixo do outro.
+         <p>Primeiro</p>
+         <p>Segundo</p>
+         <p>Terceiro</p>
+         <a href="https://youtu.be/5PS6ku8NzIE" target="_blank">Video - canal Marco Bruno</a>
+    </div>        
+</body>
+<script src="displayinline.js"></script>
+</html>
