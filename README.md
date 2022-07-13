@@ -13,3 +13,9 @@ git push -u origin main
 git remote add origin https://github.com/bartomsilva/CSS.git
 git branch -M main
 git push -u origin main
+
+armazenar credencial
+git config credential.helper store
+
+
+estudo das propriedades CSS antes de iniciar meu curso na labenu, contém um index.html que é inicialmente uma página de índice. 
