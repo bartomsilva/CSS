@@ -16,14 +16,13 @@
     width: 33.333%;
     height: 150px; 
     line-height: 150px;
-    /*display: inline;*/
 }
-.example-item_first {
+.example-item.first {
     background-color: #FAA116;
 }
-.example-item_second {
+.example-item.second {
     background-color: #57C7C3;
 }
-.example-item_third {
+.example-item.third {
     background-color: #3b97d3;
 }
