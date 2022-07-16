@@ -4,7 +4,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
+
 .bola {
     width: 100px;
     height: 100px;
@@ -13,6 +15,7 @@ body {
     border-radius: 50%;
     border: 10px solid #5198fc;
     cursor:pointer;
+    
 }
 .bola:hover {
     background-color: #e84393;

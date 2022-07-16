@@ -13,6 +13,9 @@ hr {
     color: #e0e0e0;
     font-weight: normal;                              
 }
+body {
+    padding-bottom: 20px;
+}
 .menu {
     margin-left:10px;
 }
