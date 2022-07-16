@@ -9,6 +9,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: #877ffa;
+    background-image: url();
     border-radius: 50%;
     border: 10px solid #5198fc;
     cursor:pointer;
